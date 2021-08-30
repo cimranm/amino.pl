@@ -10,6 +10,10 @@ use strict;
 while (<>)
 {
     my $char = 'A';
-    print $_; 
+    
 
+    my $count = () = $_ =~ /A/g;
+    print "$count\n"
+
+    # print $_; 
 }
